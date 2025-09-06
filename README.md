@@ -101,21 +101,12 @@ credit-risk-analysis/
 | **F** | 70.5% | 18.6% | 241 loans |
 | **G** | **98.4%** | 20.3% | 64 loans |
 
-### 🎯 High-Risk Segments Identified
-
-- **Grade F & G Loans**: 70%+ default rate
-- **High Interest Loans** (>15%): 58.0% default rate  
-- **Young Borrowers** (<25 years): 23.2% default rate
-- **Renters**: 32% default rate vs 7% for homeowners
-
 ### 🏆 Model Performance
 
 | Metric | Random Forest | Baseline |
 |--------|---------------|----------|
 | **Accuracy** | **93.0%** | 78.2% |
-| **Precision** | 97% (Default class) | - |
-| **Recall** | 71% (Default class) | - |
-| **F1-Score** | 82% (Default class) | - |
+
 
 ### 📊 Top Risk Factors (Feature Importance)
 
