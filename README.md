@@ -151,10 +151,6 @@ This project demonstrates proficiency in:
 
 Due to the author's developing knowledge in Machine Learning algorithms, **Claude Sonnet 4.0** was used to generate relevant code snippets and provide guidance on best practices. All analysis, interpretations, and insights were reviewed and validated by the author.
 
-## 🤝 Contributing
-
-This is an educational project for Week 2 assignment. 
-
 
 **Ready to dive deeper into credit risk analytics? Check out the full Jupyter notebook!** 🚀
 
