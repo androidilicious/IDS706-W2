@@ -73,7 +73,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 
 3. **Run the analysis**
    ```bash
-   jupyter notebook credit_risk_analysis.ipynb
+   jupyter notebook credit_risk_pandas.ipynb
    ```
 
 ## 📁 Project Structure
