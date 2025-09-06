@@ -138,15 +138,6 @@ credit-risk-analysis/
 - **Rationale**: Handles mixed data types, provides feature importance
 - **Evaluation**: Accuracy, precision, recall, F1-score
 
-## 🎓 Learning Outcomes
-
-This project demonstrates proficiency in:
-- **Data Manipulation**: Pandas for data cleaning and analysis
-- **Statistical Analysis**: Risk segmentation and comparative analysis  
-- **Machine Learning**: Classification model development and evaluation
-- **Data Visualization**: Matplotlib/Seaborn for insight communication
-- **Project Structure**: Organized, reproducible data science workflow
-
 ## ⚖️ Disclosure
 
 Due to the author's developing knowledge in Machine Learning algorithms, **Claude Sonnet 4.0** was used to generate relevant code snippets and provide guidance on best practices. All analysis, interpretations, and insights were reviewed and validated by the author.
