@@ -127,7 +127,7 @@ credit-risk-analysis/
 ### Model Development
 - **Algorithm**: Random Forest
 - **Rationale**: Handles mixed data types, provides feature importance
-- **Evaluation**: Accuracy, precision, recall, F1-score
+- **Evaluation**: Accuracy
 
 ## ⚖️ Disclosure
 
