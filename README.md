@@ -134,7 +134,7 @@ credit-risk-analysis/
 4. **Train/Test Split**: 80/20 stratified split maintaining class balance
 
 ### Model Development
-- **Algorithm**: Random Forest (50 trees for Week 2 simplicity)
+- **Algorithm**: Random Forest
 - **Rationale**: Handles mixed data types, provides feature importance
 - **Evaluation**: Accuracy, precision, recall, F1-score
 
