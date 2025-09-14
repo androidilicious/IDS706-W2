@@ -128,6 +128,7 @@ credit-risk-analysis/
 - **Algorithm**: Random Forest
 - **Rationale**: Handles mixed data types, provides feature importance
 - **Evaluation**: Accuracy
+- **Testing**: Testing
 
 ## ⚖️ Disclosure
 
