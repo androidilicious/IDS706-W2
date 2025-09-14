@@ -1,4 +1,4 @@
-# Credit Risk Analysis - Week 2 Mini Assignment
+# Credit Risk Analysis - Week 3 Mini Assignment (Updated Week 2 Assignment)
 
 **Student**: Diwas Puri  
 **Course**: Data Engineering Systems | IDS 706.01.Fa25  
@@ -138,4 +138,4 @@ Due to the author's developing knowledge in Machine Learning algorithms, **Claud
 **Ready to dive deeper into credit risk analytics? Check out the full Jupyter notebook!** 🚀
 
 ---
-*Last Updated: September 2025 | Week 2 Mini Assignment*
+*Last Updated: September 2025 | Week 3 Mini Assignment*

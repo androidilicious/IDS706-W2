@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 
 # Import the functions from your refactored script
-from credit_risk_pandas import (
+from credit_risk_pandas_refactored import (
     load_data,
     handle_missing_values,
     encode_categorical_variables,
