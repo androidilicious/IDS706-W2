@@ -5,4 +5,5 @@ scikit-learn
 seaborn
 flake8
 plotly
-
+lifelines
+networkx
