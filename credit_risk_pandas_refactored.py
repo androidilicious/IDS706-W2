@@ -11,6 +11,15 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import LabelEncoder
 
 
+from plotting import (
+    visualize_credit_risk,
+    sankey_intent_grade_status,
+    survival_curve,
+    correlation_network,
+    feature_importance_plot
+)
+
+
 def load_data(filepath):
     """
     Loads the credit risk dataset from a CSV file.
@@ -185,11 +194,27 @@ if __name__ == "__main__":
 
         grade_summary = group_by_loan_grade(main_df)
         print("\nAnalysis by Loan Grade:")
+        grade_summary = group_by_loan_grade(main_df)
         print(grade_summary)
+        visualize_credit_risk(main_df)
 
         # 3. Machine Learning
         X_features, y_target = prepare_data_for_ml(main_df)
         model, model_accuracy = train_random_forest_model(X_features, y_target)
+
+        # 4. Visualization
+
+        
+
+        # Core charts
+        visualize_credit_risk(main_df)
+
+
+        # Advanced charts
+        sankey_intent_grade_status(main_df)
+        survival_curve(main_df)  # requires 'loan_duration' column
+        correlation_network(main_df)
+        feature_importance_plot(model, X_features)
 
         print(f"\nML model trained successfully.")
         print(f"Model Accuracy: {model_accuracy:.3f}")
