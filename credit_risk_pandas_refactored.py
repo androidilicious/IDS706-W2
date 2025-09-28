@@ -29,6 +29,11 @@ def load_data(filepath):
         print(f"Error: The file was not found at {filepath}")
         return None
 
+def impute_column_with_median(df, column):
+    if column in df.columns:
+        df[column] = df[column].fillna(df[column].median())
+    return df
+
 
 def handle_missing_values(df):
     """
@@ -42,12 +47,9 @@ def handle_missing_values(df):
     """
     df_imputed = df.copy()
     # Impute with median for numerical columns
-    df_imputed["person_emp_length"] = df_imputed["person_emp_length"].fillna(
-        df_imputed["person_emp_length"].median()
-    )
-    df_imputed["loan_int_rate"] = df_imputed["loan_int_rate"].fillna(
-        df_imputed["loan_int_rate"].median()
-    )
+    df_imputed = impute_column_with_median(df_imputed, "person_emp_length")
+    df_imputed = impute_column_with_median(df_imputed, "loan_int_rate")
+
     return df_imputed
 
 
