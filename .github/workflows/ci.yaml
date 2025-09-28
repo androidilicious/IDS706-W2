@@ -20,3 +20,5 @@ jobs:
       run: flake8 .
     - name: Run tests
       run: python -m unittest test.py
+    - name: Run formatting check
+      run: black .

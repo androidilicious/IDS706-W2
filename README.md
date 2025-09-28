@@ -1,5 +1,8 @@
 # Credit Risk Analysis - Week 3 Mini Assignment (Updated Week 2 Assignment)
 
+![Build Status](https://img.shields.io/github/actions/workflow/status/your-username/your-repo/ci.yml?branch=main&style=for-the-badge)
+
+
 **Student**: Diwas Puri  
 **Course**: Data Engineering Systems | IDS 706.01.Fa25  
 **Dataset**: Credit Risk Dataset  
