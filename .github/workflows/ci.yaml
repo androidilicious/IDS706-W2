@@ -19,4 +19,4 @@ jobs:
     - name: Lint with flake8
       run: flake8 .
     - name: Run tests
-      run: python -m unittest discover
+      run: python -m unittest test.py
