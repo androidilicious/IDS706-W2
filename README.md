@@ -61,7 +61,15 @@ It demonstrates **data exploration, visualization, feature engineering, and mach
 
 ## 📁 Project Structure
 
-IDS706-W2/ ├── data/ │ └── credit_risk_dataset.csv ├── charts/ # auto-created, stores all plots ├── analysis_utils.py # shared helper functions (grouping, filtering, etc.) ├── plotting.py # visualization functions (core + advanced) ├── credit_risk_pandas_refactored.py # main orchestration script ├── README.md └── requirements.txt
+IDS706-W2/
+├── data/
+│   └── credit_risk_dataset.csv
+├── charts/                     # auto-created, stores all plots
+├── analysis_utils.py           # shared helper functions (grouping, filtering, etc.)
+├── plotting.py                 # visualization functions (core + advanced)
+├── credit_risk_pandas_refactored.py   # main orchestration script
+├── README.md
+└── requirements.txt
 
 
 ---
