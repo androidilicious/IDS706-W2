@@ -204,8 +204,6 @@ if __name__ == "__main__":
 
         # 4. Visualization
 
-        
-
         # Core charts
         visualize_credit_risk(main_df)
 
