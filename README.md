@@ -86,7 +86,7 @@ IDS706-W2/
   ![Risk–Return Curve](charts/risk_return_curve.png)
 
 - **Sankey Flow (Intent → Grade → Status)** – interactive HTML chart  
-  👉 [View interactive Sankey diagram](charts/sankey_flow.html)
+  👉 [View interactive Sankey diagram](https://htmlpreview.github.io/?https://raw.githubusercontent.com/androidilicious/IDS706-W2/refs/heads/main/charts/sankey_flow.html)
 
 - **Correlation Network** – graph of numeric features linked by strong correlations  
   ![Correlation Network](charts/risk_network.png)
