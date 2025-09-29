@@ -61,6 +61,7 @@ It demonstrates **data exploration, visualization, feature engineering, and mach
 
 ## 📁 Project Structure
 
+```text
 IDS706-W2/
 ├── data/
 │   └── credit_risk_dataset.csv
@@ -70,9 +71,8 @@ IDS706-W2/
 ├── credit_risk_pandas_refactored.py   # main orchestration script
 ├── README.md
 └── requirements.txt
+```
 
-
----
 
 ## 📊 Visualizations
 
@@ -126,4 +126,4 @@ All analysis, interpretations, and insights were reviewed and validated by the a
 
 ---
 
-*Last Updated: September 2025 | Week 3 Mini Assignment*
+*Last Updated: September 29 2025 | Week 5 Major Assignment*
