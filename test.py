@@ -88,11 +88,11 @@ class TestCreditRiskAnalysis(unittest.TestCase):
 
     def test_filter_high_interest_loans(self):
         """Test the filtering logic for high-interest loans."""
-        filtered_df = filter_high_interest_loans(self.df, interest_rate_threshold=15)
+        filtered_df = filter_high_interest_loans(self.df, int_threshold=15)
         self.assertEqual(len(filtered_df), 1)
         self.assertEqual(filtered_df["loan_int_rate"].iloc[0], 16.0)
         # Test edge case with no results
-        empty_df = filter_high_interest_loans(self.df, interest_rate_threshold=20)
+        empty_df = filter_high_interest_loans(self.df, int_threshold=20)
         self.assertTrue(empty_df.empty)
 
     def test_group_by_loan_grade(self):

@@ -107,7 +107,7 @@ def prepare_data_for_ml(df):
     return X, y
 
 
-def filter_high_interest_loans(df, interest_rate_threshold=15):
+def filter_high_interest_loans(df, int_threshold=15):
     """
     Filters the DataFrame for loans with an interest rate above a threshold.
 
@@ -118,7 +118,7 @@ def filter_high_interest_loans(df, interest_rate_threshold=15):
     Returns:
         pd.DataFrame: A DataFrame containing only high-interest loans.
     """
-    return df[df["loan_int_rate"] > interest_rate_threshold]
+    return df[df["loan_int_rate"] > int_threshold]
 
 
 def group_by_loan_grade(df):
