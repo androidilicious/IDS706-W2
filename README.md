@@ -1,4 +1,4 @@
-# Credit Risk Analysis - Week 3 Mini Assignment (Updated Week 2 Assignment)
+# Credit Risk Analysis - Week 5 Major Assignment (Updated Week 3 Assignment)
 
 ![Build Status](https://img.shields.io/github/actions/workflow/status/androidilicious/IDS706-W2/.github/workflows/ci.yaml?branch=main&style=for-the-badge)
 ![Python Version](https://img.shields.io/badge/python-3.12-blue?style=for-the-badge)
